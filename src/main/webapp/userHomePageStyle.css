@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("Images/UST-MainBldg-Half.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+table .errorMSGTD{
+	color: red;
+	font-size: 24px;
+}
+
+.imageLogo{
+	margin-left: 120px;
+	margin-top: 36px;
+}
+
+.userCred{
+	font-family: "Century Gothic", sans-serif;
+	margin-top: 8px;
+	margin-left: 0px;
+	align-content: center;
+	max-width: 50%
+}
+
+div .fullName{
+	font-size: 28px;
+	text-align: center;
+}
+
+div .ID{
+	font-size: 24px;
+	text-align: center;
+}
+
+.optionContainer{
+	font-family: "Century Gothic", sans-serif;
+	margin-top: 8px;
+	margin-left: 0px;
+	align-content: center;
+	max-width: 50%
+}
+
+.optionContainer p{
+	font-size: 24px;
+	text-align: center;
+	align-content: center;
+	margin-top: 20px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+
+
+
+

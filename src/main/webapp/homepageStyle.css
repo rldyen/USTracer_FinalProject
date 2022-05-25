@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("Images/Homepage-BG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+
+.imageLogo{
+	margin: 4 px;
+	margin-left: 64px;
+	padding-top: 256px;
+}
+
+.buttonText{
+	margin: 4 px;
+	margin-left: 512px;
+	padding-top: 18px;
+	font-family: "Century Gothic", sans-serif;
+	
+}
+
+table .tableTD{
+	padding-right: 24px;
+}
+
+.unifyingText{
+	font-size: 36px;
+	font-family: "Century Gothic", sans-serif;
+	margin-left: 64px;
+	margin-top: 128px;
+}

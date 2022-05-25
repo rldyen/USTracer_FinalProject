@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.body{
+    margin: 0;
+	padding: 0;
+	background-position: center center;
+}
+
+.container{
+    font-family: "Century Gothic", sans-serif;
+	margin-top: 116px;
+	margin-left: 248px;
+}
+
+table th{
+	font-size: 20px;
+	padding: 8px;
+}
+
+table td{
+	font-size: 16px;
+	padding: 8px;
+}

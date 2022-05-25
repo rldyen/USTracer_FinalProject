@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>USTracerProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>RegisterServlet</display-name>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<servlet-class>com.ustracer.mvc.controller.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<description></description>
+  	<display-name>CovaxProfileServlet</display-name>
+  	<servlet-name>CovaxProfileServlet</servlet-name>
+  	<servlet-class>com.ustracer.mvc.controller.CovaxProfileServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CovaxProfileServlet</servlet-name>
+  	<url-pattern>/CovaxProfileServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>LoginCredServlet</display-name>
+    <servlet-name>LoginCredServlet</servlet-name>
+    <servlet-class>com.ustracer.mvc.controller.LoginCredServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginCredServlet</servlet-name>
+    <url-pattern>/LoginCredServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  	<description></description>
+  	<display-name>UpdateInfoServlet</display-name>
+  	<servlet-name>UpdateInfoServlet</servlet-name>
+  	<servlet-class>com.ustracer.mvc.controller.UpdateInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdateInfoServlet</servlet-name>
+  	<url-pattern>/UpdateInfoServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<description></description>
+  	<display-name>HealthStatusServlet</display-name>
+  	<servlet-name>HealthStatusServlet</servlet-name>
+  	<servlet-class>com.ustracer.mvc.controller.HealthStatusServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>HealthStatusServlet</servlet-name>
+  	<url-pattern>/HealthStatusServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <description></description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.ustracer.mvc.controller.LogoutServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+ </servlet-mapping>
+  
+  
+</web-app>

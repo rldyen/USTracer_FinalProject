@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("Images/UST-MainBldg-Half.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.containerForm{
+	font-family: "Century Gothic", sans-serif;
+	margin-top: 116px;
+	margin-left: 256px;
+}
+
+
+.date{
+	margin-top: 116px;
+	margin-left: 312px;
+	font-size: 24px;
+}
+
+.buttonTables{
+	margin-top: 24px;
+}
